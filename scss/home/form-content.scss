@@ -1,0 +1,130 @@
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  //   background-color: green;
+  margin: $center;
+  position: relative;
+
+  .row1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .holder {
+      position: relative;
+      .long-box {
+        width: 453px;
+      }
+      input {
+        width: 344px;
+        height: 58px;
+        padding-left: 10px;
+        border: $content-border;
+      }
+      i {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+      }
+    }
+  }
+
+  .row2 {
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    .holder2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      position: relative;
+
+      .top-text {
+        width: 96px;
+        height: 23px;
+
+        p {
+          color: $site-black;
+          font-size: 18px;
+          font-family: Gill;
+        }
+      }
+      .row2-input {
+        position: relative;
+        input {
+          width: 698px;
+          height: 58px;
+          padding-left: 10px;
+          border: $content-border;
+          color: $site-black;
+          margin-left: 24px;
+        }
+        i {
+          position: absolute;
+          right: 0px;
+          top: 20px;
+          right: 20px;
+        }
+      }
+    }
+  }
+  .row3 {
+    width: 818px;
+    height: 58px;
+    background-color: $site-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: Gill;
+
+    .adult {
+      position: relative;
+
+      i {
+        font-size: 24px;
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+      }
+    }
+
+    .children {
+      position: relative;
+
+      i {
+        font-size: 24px;
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+      }
+    }
+
+    .rooms {
+      position: relative;
+
+      i {
+        font-size: 24px;
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+      }
+    }
+    input {
+      width: 103px;
+      height: 58px;
+      background-color: $site-white;
+      border: $content-border;
+      padding-left: 10px;
+      margin-left: 57px;
+    }
+  }
+}

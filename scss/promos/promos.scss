@@ -1,0 +1,68 @@
+.promos {
+  width: 818px;
+  height: 304px;
+  margin: -37px auto 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .tour {
+    width: 236px;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .tourTxt {
+    color: $site-white;
+    font-family: ProxThin;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+  }
+  .t1 {
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .t2 {
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .t3 {
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url(../images/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .learn-button {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    color: $site-white;
+    font-family: Gill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    margin-top: 58px;
+  }
+}

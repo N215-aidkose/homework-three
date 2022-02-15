@@ -1,0 +1,14 @@
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $button-width;
+  height: $button-height;
+  background-color: $button-color;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  color: $site-white;
+  font-family: Gill;
+  font-size: 15px;
+}

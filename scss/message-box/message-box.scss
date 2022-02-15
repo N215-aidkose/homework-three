@@ -1,0 +1,19 @@
+.message-box {
+  margin: 0 auto;
+  margin-bottom: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  input {
+    color: $site-black;
+    font-family: Gill;
+    font-size: 18px;
+    width: 813px;
+    height: 192px;
+    border: $content-border;
+    padding-bottom: 130px;
+    padding-left: 10px;
+  }
+}

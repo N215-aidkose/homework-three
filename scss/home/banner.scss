@@ -1,0 +1,49 @@
+.banner {
+  max-width: $banner-footer-width;
+  height: $banner-height;
+  background-image: linear-gradient(
+      rgba($site-black, 0.35),
+      rgba($site-black, 0.35)
+    ),
+    url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -80px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .travel-fly {
+    position: absolute;
+    top: 141.5px;
+    p {
+      color: white;
+      font-family: ProxThin;
+      font-size: 30px;
+    }
+  }
+
+  .lorem {
+    position: absolute;
+    top: 210.5px;
+    p {
+      color: white;
+      font-family: ProxCond;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+
+  .read-more {
+    position: absolute;
+    bottom: 550px;
+    width: 121px;
+    height: 40px;
+    background-color: $site-blue;
+    color: $site-white;
+    font-family: Gill;
+    text-align: center;
+    padding-top: 12px;
+  }
+}
